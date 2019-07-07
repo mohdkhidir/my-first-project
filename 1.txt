@@ -2,3 +2,25 @@ this is my 1st text file
 
 https://www.tycho.pitt.edu/
 https://chrisalbon.com/
+
+How to use github
+cd
+ls
+cd c/
+cd /git
+git config --global user.name "mohdkhidir"
+git config --global user.email mohdkhidir@gmail.com
+ls
+cd my-first-project
+ls
+git add 1.txt
+git status
+git commit -m "1st commit" 1.txt
+git push -u origin master
+
+#if 1.txt being modified... then check status again by using this command
+
+git status
+git commit -m "second commit" 1.txt
+git push -u origin master
+
